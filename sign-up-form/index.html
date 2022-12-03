@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="separateColumns">
+        <div class="introImage">
+            <div id="website">
+                <h1>Riley's Website</h1>
+            </div>
+            <img src="background.jpeg" alt="Background Image">
+        </div>
+        <div class="separateRows remainingContent">
+            <div class="description">
+                <h4>This is not a real online service! You know you need something like this in your
+                    life you help you realize your deepest dreams.</h4>
+                <h4 id="signup">Sign up <i>now</i> to get started.</h4>
+                <h4>You <i>know</i> you want to.</h4>
+            </div>
+
+            <div class="formContents">
+                <h3>Let's do this!</h3>
+                <form action="" class="theForm">
+                    <div class="formInput">
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div class="formInput">
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                    <div class="formInput">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="formInput">
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="tel" id="phoneNumber">
+                    </div>
+                    <div class="formInput">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" class="validPass" pattern="[0-9A-Za-z]" required>
+                    </div>
+                    <div class="formInput">
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirmPassword" class="validPass" required>
+                    </div>
+                </form>
+            </div>
+
+            <div class="account">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

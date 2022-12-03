@@ -1,0 +1,141 @@
+html, 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 100px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    margin-left: 3rem;
+}
+
+.myBio {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900px;
+}
+
+.myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 30%;
+}
+
+.projImg {
+    border: 3px solid #1F2937;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    ul {
+        gap: 20px;
+    }
+
+    .myBio {
+        display: block;
+    }
+
+    img {
+        max-width: 600px;
+    }
+}
+
+.languageArea {
+    background-color:#E5E7EB;
+    color: #666;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.langImg {
+    max-width: 75px;
+}
+
+footer {
+    color: white;
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+#contactdetails {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.contactImg {
+    max-width: 50px;
+}
+
+.contactdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

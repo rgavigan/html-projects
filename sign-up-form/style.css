@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.separateColumns {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.introImage {
+    width: 25%;
+}
+
+.remainingContent {
+    width: 75%;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 50vh;
+    background-color:rgba(0,0,0,0.5);
+    width: 24.5%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.separateRows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.description {
+    background: #eee;
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 25px * 50vh;
+}
+
+.formContents {
+    height: 33.33%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.theForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end
+}
+
+input {
+    width: 50%;
+    height: 75%;
+}
+
+h3 {
+    display: block;
+    font-size: 3vh;
+}
+
+.account {
+    height: 33.33%;
+    background-color: #eee;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.6);
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    background-color: saddlebrown;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #654321;
+}
+
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+a {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #654321;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+label {
+    font-family: Tahoma;
+    font-size: 2.5vh;
+}
+
+input {
+    height: 35px * 10vh;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input.validPass {
+    border: 1px solid red;
+}
+
+input.validPass:valid {
+    border: 1px solid green;
+}
+
+input:focus, input:active {
+    border: 0;
+    border: 1px solid pink;
+}
